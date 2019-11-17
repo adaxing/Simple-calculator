@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.calculator {
+  width: 320px;
+  background-color: black;
+  position: relative;
+  border: 2px solid #47476b;
+  padding: 3px;
+
+}
+
+.formulaScreen {
+  min-height: 20px;
+  color: orange;
+  font-family: 'digital';
+  font-size: 20px;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+
+}
+
+.displayScreen {
+  line-height: 35px;
+  color: white;
+  text-align: right;
+  font-family: 'digital';
+  font-size: 29px;
+}
+
+.operators {
+  background: rgb(102,102,102);
+}
+
+.author {
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+  margin-top: 15px;
+}
+
+
+.author a {
+  text-decoration: none;
+  color: #00264d;
+  line-height: 26px;
+}
